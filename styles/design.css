@@ -261,3 +261,8 @@ li a{
     width: 366px;
     height: 243px;
 }
+.reviewers {
+  margin-top: 100px;
+  font-size: 40px; /* Optional: in case you want to style it */
+  font-weight: bold; /* Optional */
+}
