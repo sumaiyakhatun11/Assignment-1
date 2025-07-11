@@ -1,0 +1,63 @@
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+    padding: 50px 0;
+
+
+}
+
+.nav_logo{
+    color: rgba(78, 71, 255, 1);
+    font-weight: 900;
+    font-size:34px ;
+}
+nav button{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    padding:12px 36px;
+    border: none;
+}
+.text_center{
+    text-align: center;
+}
+.focused_button{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    padding:12px 36px;
+    border: none;
+}
+.banner_button{
+    margin-top: 37px;
+}
+.color1{
+    color: #252432;
+}
+.banner{
+   margin: 152px auto;
+
+}
+.banner_content{
+    font-weight: bold;
+    font-size: 65px;
+}
