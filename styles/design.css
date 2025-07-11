@@ -111,4 +111,81 @@ nav button{
     padding: 50PX 140PX;
     background-color: rgba(78, 71, 255, 0.1);
     margin: 0PX 159PX ;
+    border-radius: 10px;
+}
+.in_touch_title{
+    font-weight: bold;
+    font-size: 97px;
+    color: rgba(0, 0, 0, 1);
+}
+.in_touch_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;        /* ✅ vertical center */
+  gap: 100px;                 /* ✅ space between text and form */
+  max-width: 1140px;
+  margin: 92px auto;          /* ✅ top-bottom: 92px, center horizontally */
+  padding: 0 150px;           /* ✅ left-right padding */
+}
+
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  width: 497px;
+}
+
+.in_touch_title {
+  font-weight: bold;
+  font-size: 97px;
+  color: #000;
+  line-height: 1.1;
+  max-width: 400px;
+}
+main{
+    background-color: rgba(214, 221, 237, 0.582)
+}
+.form_pad{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.form_info{
+    font-size: 18px;
+    font-weight: 500;
+}
+.Footer_heaing{
+    font-weight:900 ;
+    font-size: 100px;
+    color: #4E47FF;
+    padding: 20px;
+}
+.Footer_description{
+    color:rgba(137, 135, 161, 1);
+    align-items: center;
+}
+ul {
+   
+  display: flex;
+  justify-content: center; 
+  gap: 100px;              
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+  
+   }   
+
+li a{
+    
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+  
+}
+.lists {
+    margin: 30px 0;
+}
+
+.btn:hover{
+    background-color: #12111d71;
 }
