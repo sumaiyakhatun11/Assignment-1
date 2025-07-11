@@ -49,15 +49,66 @@ nav button{
 }
 .banner_button{
     margin-top: 37px;
+  
 }
 .color1{
     color: #252432;
 }
-.banner{
-   margin: 152px auto;
-
+.banner {
+    padding-bottom: 152px;
 }
+
 .banner_content{
     font-weight: bold;
     font-size: 65px;
+}
+.header_bg {
+  background-image: url(../Assets/Hero-bg.png);
+  background-size: cover;       /* Optional: scales the image */
+  background-position: center;  /* Optional: centers the image */
+  background-repeat: no-repeat; /* Optional: stops repeating */
+}
+
+.see_it_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wc_picture img {
+  width: 403px;
+  height: 328px;
+  border-radius: 20px; /* adds rounded corners */
+}
+.see_it_title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.see_it_sub{
+    font-size: 24px;
+    color: #252432;
+}
+.see_it_container{
+    margin: 159px;
+}
+.in_detail{
+    display: flex;
+    justify-content: space-around;
+}
+.user_no{
+    font-size: 38px;
+    font-weight: bold;
+}
+.u_number{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.type{
+    font-size: 20px;
+    color: #000000;
+}
+.joined_user {
+    padding: 50PX 140PX;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0PX 159PX ;
 }
